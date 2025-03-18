@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
+def portfolio(request):
+    return render(request, 'portfolio_app/portfolio.html')
 # Create your views here.
