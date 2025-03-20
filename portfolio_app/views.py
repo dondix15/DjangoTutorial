@@ -4,5 +4,5 @@ def portfolio(request):
     return render(request, 'portfolio_app/index.html')
 
 def index(request):
-    return HttpResponse('home page')
+    return render(request, 'portfolio_app/index.html')
 # Create your views here.
